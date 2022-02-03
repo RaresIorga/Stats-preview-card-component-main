@@ -1,3 +1,6 @@
+*{
+  border-radius: 1%;
+}
 body {
   background-color: hsl(233, 47%, 7%);
   font-size: 0.8rem;
@@ -48,11 +51,13 @@ img {
   height: 100%;
   opacity: 0.7;
   min-height: 7rem;
+  border-radius: 0% 1% 1% 0%;
 }
 #img {
   background-color: hsl(277, 100%, 43%);
   width: 50rem;
   min-height: 7rem;
+  border-radius: 0% 1% 1% 0%;
 }
 
 footer {
